@@ -1,1 +1,1 @@
-module.exports = 'sparkly and far away';
+module.exports = 'hey';

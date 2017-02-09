@@ -1,4 +1,4 @@
 module.exports = {
     greeting: 'hey',
-    person: 'joe'
+    person: 'bob'
 };

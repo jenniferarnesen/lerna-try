@@ -12,7 +12,7 @@ console.log('yo this is the moon');
     heading.appendChild(heading_text);
     document.body.appendChild(heading);
 
-    var heading2 = document.createElement('h1');
+    var heading2 = document.createElement('h2');
     var heading_text2 = document.createTextNode(person);
     heading2.appendChild(heading_text2);
     document.body.appendChild(heading2);

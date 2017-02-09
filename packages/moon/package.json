@@ -1,10 +1,12 @@
 {
   "name": "jen-moon",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack ./index.js public/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 9001"
   },
   "files": [
     "index.js"
@@ -13,7 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jen-stars": "^1.2.0",
+    "jen-stars": "^1.3.0",
     "jen-sun": "^1.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
   }
 }

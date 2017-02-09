@@ -1,1 +1,1 @@
-module.exports = 'grammatically incorrect but they are sparkly';
+module.exports = 'sparkly and far away';

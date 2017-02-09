@@ -1,3 +1,4 @@
-lerna-debug.log
+**/lerna-debug.log
 **/public/*.js
 **/node_modules
+**/npm-debug.log

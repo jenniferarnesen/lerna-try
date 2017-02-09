@@ -1,1 +1,4 @@
-module.exports = 'hey';
+module.exports = {
+    greeting: 'hey',
+    person: 'joe'
+};

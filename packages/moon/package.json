@@ -19,6 +19,7 @@
     "jen-sun": "^1.2.0"
   },
   "devDependencies": {
+    "http-server": "^0.9.0",
     "webpack": "^2.2.1"
   }
 }

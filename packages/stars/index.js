@@ -1,0 +1,1 @@
+module.exports = 'grammatically incorrect but they are sparkly';

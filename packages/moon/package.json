@@ -1,6 +1,6 @@
 {
   "name": "jen-moon",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jen-stars": "^1.5.0",
+    "jen-stars": "^2.1.0",
     "jen-sun": "^2.0.0"
   },
   "devDependencies": {

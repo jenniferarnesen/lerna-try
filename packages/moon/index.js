@@ -1,7 +1,7 @@
 const {greeting, person} = require('jen-stars');
 const sun = require('jen-sun');
 
-console.log('the sun is', sun);
+console.log('the sun was', sun);
 
 console.log('this is the moon');
 

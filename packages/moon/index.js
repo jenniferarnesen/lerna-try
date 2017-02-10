@@ -3,7 +3,7 @@ const sun = require('jen-sun');
 
 console.log('the sun is', sun);
 
-console.log('yo this is the moon');
+console.log('this is the moon');
 
  window.onload = function() {
 

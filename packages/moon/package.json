@@ -1,8 +1,8 @@
 {
   "name": "jen-moon",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "clean": "rimraf dist public/bundle.js",
     "build": "mkdirp dist && webpack ./index.js dist/bundle.js",
@@ -15,7 +15,7 @@
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "jen-stars": "^2.2.2",
     "jen-sun": "^2.0.0"

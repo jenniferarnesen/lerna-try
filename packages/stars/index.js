@@ -1,4 +1,5 @@
 module.exports = {
     greeting: 'hey',
-    person: 'mind'
+    person: 'heidrunn',
+    title: 'big boss'
 };

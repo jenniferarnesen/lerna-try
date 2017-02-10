@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack ./index.js public/bundle.js",
+    "clean": "rimraf dist public/bundle.js",
+    "build": "mkdirp dist && webpack ./index.js dist/bundle.js",
+    "postbuild": "cp dist/bundle.js public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -p 9001"
   },
   "files": [
-    "index.js"
+    "dist"
   ],
   "keywords": [],
   "author": "",
@@ -20,6 +22,8 @@
   },
   "devDependencies": {
     "http-server": "^0.9.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4",
     "webpack": "^2.2.1"
   }
 }

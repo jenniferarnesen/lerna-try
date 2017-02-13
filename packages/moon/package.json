@@ -1,6 +1,6 @@
 {
   "name": "jen-moon",
-  "version": "2.2.8",
+  "version": "3.0.1",
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "jen-stars": "^2.3.0",
-    "jen-sun": "^2.3.0"
+    "jen-sun": "^3.0.1"
   },
   "devDependencies": {
     "http-server": "^0.9.0",

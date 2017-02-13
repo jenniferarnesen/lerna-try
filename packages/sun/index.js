@@ -1,1 +1,1 @@
-module.exports = 'very hot';
+module.exports = 'very very hot';

@@ -1,1 +1,1 @@
-module.exports = 'warm and bright and shiny';
+module.exports = 'very hot';
